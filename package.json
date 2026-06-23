@@ -1,0 +1,17 @@
+{
+  "name": "pennylane-mcp",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Local MCP server exposing the Pennylane Company API (v2) as tools for Claude Code / any MCP client.",
+  "bin": {
+    "pennylane-mcp": "server.mjs"
+  },
+  "scripts": {
+    "start": "node server.mjs"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.0",
+    "zod": "^3.23.8"
+  }
+}

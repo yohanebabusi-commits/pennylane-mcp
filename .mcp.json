@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "pennylane": {
+      "command": "node",
+      "args": ["server.mjs"]
+    }
+  }
+}
